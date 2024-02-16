@@ -4,7 +4,7 @@
 
 ### Projects and Coursework
 
-[Blackjack Simulation](/sample_page)
+[Blackjack Simulation](/pdf/Project-1---Black-Jack (5).html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
