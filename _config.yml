@@ -1,5 +1,7 @@
 title: John Doe # your name (or website title) here
+\linebreak
 logo: "/images/BusinessPhotos.png?raw=true" # your photo (or logo) here
+\linebreak
 description: > # your text below (remove <br> elements if you don't need line breaks)
   First description 
   <br><br>
