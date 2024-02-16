@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name 1 
+### Projects and Coursework
 
 [Blackjack Simulation Project](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
