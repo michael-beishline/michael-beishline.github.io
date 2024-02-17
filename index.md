@@ -8,7 +8,7 @@
 <img src="images/BlackjackPic.png?raw=true" width="1500" align="center"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Project 2 Title](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/0a17a82b87c9a0e30e6f4b33cb2556b53dd65563/pdf/Problem-7%20(6).html)
 <img src="images/Map1.png?raw=true"/>
 
 ---
