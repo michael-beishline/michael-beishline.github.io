@@ -5,7 +5,7 @@
 ### Projects and Coursework
 
 [Blackjack Simulation](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/cad0fa0a64cad37fcb91a9896a6766a38abc8070/pdf/Project-1---Black-Jack%20(5).html)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/BlackjackPic.png?raw=true" width="600"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
