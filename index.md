@@ -4,7 +4,7 @@
 
 ### Coursework and Projects
 
-[Effective Blackjack Strategies](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/5756a8dae647c9feb22c722b3b12316e4b650514/pdf/Project-1---Black-Jack%20(5).html)
+[Comparing Best Blackjack Strategies](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/5756a8dae647c9feb22c722b3b12316e4b650514/pdf/Project-1---Black-Jack%20(5).html)
 <img src="images/BlackjackPic.png?raw=true" width="1500" align="center"/>
 
 ---
@@ -12,7 +12,7 @@
 <img src="images/Map1.png?raw=true"/>
 
 ---
-[Project 3 Title](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/6135707dd0271ea90b11f125aa600fb5f27b0740/pdf/Problem-8%20(1).html)
+[Building a Linear Model](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/6135707dd0271ea90b11f125aa600fb5f27b0740/pdf/Problem-8%20(1).html)
 <img src="images/Untitleesign-2.png?raw=true"/>
 
 ---
