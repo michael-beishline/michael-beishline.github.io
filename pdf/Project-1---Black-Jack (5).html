@@ -500,7 +500,7 @@ kable(head(dealer))</code></pre>
 <pre class="r"><code>dealer_Total &lt;- dealer %&gt;% group_by(Game) %&gt;% summarise(Total=sum(as.numeric(Value)))
 
 kable(head(dealer_Total))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -564,7 +564,7 @@ df$Value[grepl(&#39;Ace&#39;,df$Card_Type) == TRUE] &lt;- 11
 df &lt;- Ace_Check(df)
 
 kable(head(df))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -615,7 +615,7 @@ kable(head(df))</code></pre>
 <pre class="r"><code>df_Total &lt;- df %&gt;% group_by(Game) %&gt;% summarise(Total=sum(as.numeric(Value)))
 
 kable(head(df_Total))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -698,7 +698,7 @@ for (i in hit_numbers) {
 
 
 kable(head(dealer_hit))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -747,7 +747,7 @@ kable(head(dealer_hit))</code></pre>
 </tbody>
 </table>
 <pre class="r"><code>kable(head(dealer_Total_1))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -799,7 +799,7 @@ for (i in hit_numbers) {
 }
 
 kable(head(player_hit))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -851,7 +851,7 @@ kable(head(player_hit))</code></pre>
 <h4>Strategy 1 vs Dealer’s Hand</h4>
 <pre class="r"><code>Results &lt;- Winners(df_Total_1,dealer_Total_1)
 kable(head(Results))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -960,7 +960,7 @@ player would hit until they have at least 14 points.</p>
 <h4>Dealer’s Shown Cards</h4>
 <pre class="r"><code>shown_card &lt;- dealer %&gt;% filter(Card == &#39;C1&#39;)
 kable(head(shown_card))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -1021,7 +1021,7 @@ for (i in hit_numbers) {
 }
 
 kable(head(player_hit_shown))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -1074,7 +1074,7 @@ kable(head(player_hit_shown))</code></pre>
 <h4>Strategy 2 vs Dealer’s Hand</h4>
 <pre class="r"><code>Results_2 &lt;- Winners(df_Total_2,dealer_Total_1)
 kable(head(Results_2))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -1199,7 +1199,7 @@ for (i in hit_numbers) {
 }
 
 kable(head(player_hit_shown_2))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -1252,7 +1252,7 @@ kable(head(player_hit_shown_2))</code></pre>
 <h4>Strategy 3 vs Dealer’s Hand</h4>
 <pre class="r"><code>Results_3 &lt;- Winners(df_Total_3,dealer_Total_1)
 kable(head(Results_3))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Game</th>
@@ -1340,7 +1340,7 @@ face_Total$Strat_1 &lt;- as.numeric(face_Total$Strat_1)
 face_Total$Strat_2 &lt;- as.numeric(face_Total_2$Strat_2)
 face_Total$Strat_3 &lt;- as.numeric(face_Total_3$Strat_3)
 kable(head(face_Total))</code></pre>
-<table>
+<table border = "4">
 <thead>
 <tr class="header">
 <th align="right">Card_Type</th>
