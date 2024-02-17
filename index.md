@@ -12,8 +12,8 @@
 <img src="images/Map1.png?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Project 3 Title](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/6135707dd0271ea90b11f125aa600fb5f27b0740/pdf/Problem-8%20(1).html)
+<img src="images/Untitleesign-2.png?raw=true"/>
 
 ---
 
