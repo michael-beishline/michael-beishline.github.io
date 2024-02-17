@@ -451,50 +451,50 @@ dealer &lt;- Ace_Check(dealer)
 kable(head(dealer))</code></pre>
 <table>
 <thead>
-<tr class="header">
-<th align="right">Game</th>
-<th align="left">Card</th>
-<th align="left">Card_Type</th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="right">1</td>
-<td align="left">C1</td>
-<td align="left">8</td>
-<td align="left">8</td>
-</tr>
-<tr class="even">
-<td align="right">1</td>
-<td align="left">C2</td>
-<td align="left">3</td>
-<td align="left">3</td>
-</tr>
-<tr class="odd">
-<td align="right">1</td>
-<td align="left">C3</td>
-<td align="left">0</td>
-<td align="left">0</td>
-</tr>
-<tr class="even">
-<td align="right">1</td>
-<td align="left">C4</td>
-<td align="left">0</td>
-<td align="left">0</td>
-</tr>
-<tr class="odd">
-<td align="right">1</td>
-<td align="left">C5</td>
-<td align="left">0</td>
-<td align="left">0</td>
-</tr>
-<tr class="even">
-<td align="right">1</td>
-<td align="left">C6</td>
-<td align="left">0</td>
-<td align="left">0</td>
-</tr>
+  <tr class="header">
+    <th align="right">Game</th>
+    <th align="left">Card</th>
+    <th align="left">Card_Type</th>
+    <th align="left">Value</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+    <td align="right">1</td>
+    <td align="left">C1</td>
+    <td align="left">8</td>
+    <td align="left">8</td>
+  </tr>
+  <tr class="even">
+    <td align="right">1</td>
+    <td align="left">C2</td>
+    <td align="left">3</td>
+    <td align="left">3</td>
+  </tr>
+  <tr class="odd">
+    <td align="right">1</td>
+    <td align="left">C3</td>
+    <td align="left">0</td>
+    <td align="left">0</td>
+  </tr>
+  <tr class="even">
+    <td align="right">1</td>
+    <td align="left">C4</td>
+    <td align="left">0</td>
+    <td align="left">0</td>
+  </tr>
+  <tr class="odd">
+    <td align="right">1</td>
+    <td align="left">C5</td>
+    <td align="left">0</td>
+    <td align="left">0</td>
+  </tr>
+    <tr class="even">
+    <td align="right">1</td>
+    <td align="left">C6</td>
+    <td align="left">0</td>
+    <td align="left">0</td>
+  </tr>
 </tbody>
 </table>
 <pre class="r"><code>dealer_Total &lt;- dealer %&gt;% group_by(Game) %&gt;% summarise(Total=sum(as.numeric(Value)))
