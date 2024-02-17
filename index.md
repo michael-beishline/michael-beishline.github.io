@@ -5,7 +5,7 @@
 ### Projects and Coursework
 
 [Effective Blackjack Strategies](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/5756a8dae647c9feb22c722b3b12316e4b650514/pdf/Project-1---Black-Jack%20(5).html)
-<img src="images/BlackjackPic.png?raw=true" width="1000"/>
+<img src="images/BlackjackPic.png?raw=true" width="1000" align="center"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
