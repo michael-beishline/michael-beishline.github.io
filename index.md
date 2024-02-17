@@ -4,7 +4,8 @@
 
 ### Projects and Coursework
 
-[Best Blackjack Strategies](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/cad0fa0a64cad37fcb91a9896a6766a38abc8070/pdf/Project-1---Black-Jack%20(5).html)
+[Best Blackjack Strategies](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/5756a8dae647c9feb22c722b3b12316e4b650514/pdf/Project-1---Black-Jack%20(5).html)
+<br>
 </br>
 <img src="images/BlackjackPic.png?raw=true" width="650"/>
 
