@@ -385,7 +385,7 @@ library(dplyr)</code></pre>
 library(knitr)
 
 kable(head(df))</code></pre>
-<table>
+<table border = "3">
 <thead>
 <tr class="header">
 <th align="right">Roll</th>
@@ -395,32 +395,32 @@ kable(head(df))</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D1</td>
 <td align="right">4</td>
 </tr>
 <tr class="even">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D2</td>
 <td align="right">1</td>
 </tr>
 <tr class="odd">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D3</td>
 <td align="right">2</td>
 </tr>
 <tr class="even">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D4</td>
 <td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D5</td>
 <td align="right">4</td>
 </tr>
 <tr class="even">
-<td align="right">2</td>
+<td align="center">2</td>
 <td align="left">D1</td>
 <td align="right">6</td>
 </tr>
@@ -443,7 +443,7 @@ df1$New_roll &lt;- ifelse(df1$value == df1$Keep, df1$value, sample(1:6,5,replace
 sim1 &lt;- df1 %&gt;% select(Roll, Die, value, Keep, New_roll)
 
 kable(head(sim1))</code></pre>
-<table>
+<table border = "3">
 <thead>
 <tr class="header">
 <th align="right">Roll</th>
@@ -455,42 +455,42 @@ kable(head(sim1))</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D1</td>
 <td align="right">4</td>
 <td align="right">4</td>
 <td align="right">4</td>
 </tr>
 <tr class="even">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D2</td>
 <td align="right">1</td>
 <td align="right">4</td>
 <td align="right">5</td>
 </tr>
 <tr class="odd">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D3</td>
 <td align="right">2</td>
 <td align="right">4</td>
 <td align="right">6</td>
 </tr>
 <tr class="even">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D4</td>
 <td align="right">4</td>
 <td align="right">4</td>
 <td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D5</td>
 <td align="right">4</td>
 <td align="right">4</td>
 <td align="right">4</td>
 </tr>
 <tr class="even">
-<td align="right">2</td>
+<td align="center">2</td>
 <td align="left">D1</td>
 <td align="right">6</td>
 <td align="right">6</td>
@@ -517,7 +517,7 @@ df2$New_roll[is.na(df2$Keep)] &lt;- sample(1:6,5,replace = TRUE)
 sim2 &lt;- df2 %&gt;% select(Roll, Die, value, Keep, New_roll)
 
 kable(head(sim2))</code></pre>
-<table>
+<table border = "3">
 <thead>
 <tr class="header">
 <th align="right">Roll</th>
@@ -529,42 +529,42 @@ kable(head(sim2))</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D1</td>
 <td align="right">4</td>
 <td align="right">4</td>
 <td align="right">4</td>
 </tr>
 <tr class="even">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D2</td>
 <td align="right">1</td>
 <td align="right">4</td>
 <td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D3</td>
 <td align="right">2</td>
 <td align="right">4</td>
 <td align="right">2</td>
 </tr>
 <tr class="even">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D4</td>
 <td align="right">4</td>
 <td align="right">4</td>
 <td align="right">4</td>
 </tr>
 <tr class="odd">
-<td align="right">1</td>
+<td align="center">1</td>
 <td align="left">D5</td>
 <td align="right">4</td>
 <td align="right">4</td>
 <td align="right">4</td>
 </tr>
 <tr class="even">
-<td align="right">2</td>
+<td align="center">2</td>
 <td align="left">D1</td>
 <td align="right">6</td>
 <td align="right">NA</td>
