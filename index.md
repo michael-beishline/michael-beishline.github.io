@@ -15,19 +15,6 @@
 [Building a Linear Model](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/6135707dd0271ea90b11f125aa600fb5f27b0740/pdf/Problem-8%20(1).html)
 <img src="images/Untitleesign-2.png?raw=true"/>
 
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
 
 
 ---
