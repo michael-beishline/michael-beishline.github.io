@@ -15,6 +15,12 @@
 [Building a Linear Model](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/6135707dd0271ea90b11f125aa600fb5f27b0740/pdf/Problem-8%20(1).html)
 <img src="images/Untitleesign-2.png?raw=true"/>
 
+---
+
+### Coursework and Projects
+
+[Finding Correlated Variables To Build a Linear Model (Using SQL and R)](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/1eed70d75f022a9c4240704c3ed8f65ca22f657d/pdf/Problem-6%20(6).html)
+[Coffee Shop Simulation](https://htmlpreview.github.io/?https://github.com/michael-beishline/michael-beishline.github.io/blob/cf505afa97e86bb09b5a0f5cfdf196b53afd961c/pdf/problem_3_coffee_solution.html)
 
 
 ---
