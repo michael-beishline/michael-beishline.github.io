@@ -370,7 +370,7 @@ df &lt;- data.frame(Country = country,
                  stringsAsFactors = FALSE)
 library(knitr)
 kable(df)</code></pre>
-<table>
+<table border = "3">
 <thead>
 <tr class="header">
 <th align="left">Country</th>
@@ -472,7 +472,7 @@ names &lt;- unique(sample(babynames$name,20))
 sim$name &lt;- sample(names, length(sim$Calendar), replace = TRUE, prob = 1:length(names))
 
 kable(head(sim))</code></pre>
-<table>
+<table border = "3">
 <thead>
 <tr class="header">
 <th align="left">Calendar</th>
@@ -566,7 +566,7 @@ p4 &lt;- sim %&gt;% filter(name == a4$name) %&gt;% group_by(Coffee_type, Month_d
 coffee beans sold per month?</li>
 </ul>
 <pre class="r"><code>kable(a2)</code></pre>
-<table>
+<table border = "3">
 <thead>
 <tr class="header">
 <th align="left">Month_date</th>
