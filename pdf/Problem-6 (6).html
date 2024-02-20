@@ -374,7 +374,7 @@ df_2 &lt;- df_2 %&gt;% select(-c(npt4_priv,npt4_pub,distanceonly))
 df_3 &lt;- df_2[!is.na(df_2$npt),]
 df_3$Binary &lt;- factor(df_3$control, levels = c(&#39;public&#39;,&#39;private&#39;), labels = c(0, 1))
 kable(head(df_3))</code></pre>
-<table style="width:100%;">
+<table border = "3" style="width:100%;">
 <colgroup>
 <col width="1%" />
 <col width="3%" />
@@ -566,7 +566,7 @@ p1</code></pre>
 <pre class="r"><code>df_num_1 &lt;- df_num %&gt;% group_by(key) %&gt;% summarize(correlation = cor(npt,value,use = &#39;complete.obs&#39;))
 df_num_2 &lt;- df_num_1[order(-df_num_1$correlation),]
 kable(head(df_num_2))</code></pre>
-<table>
+<table border = "3">
 <thead>
 <tr class="header">
 <th align="left">key</th>
